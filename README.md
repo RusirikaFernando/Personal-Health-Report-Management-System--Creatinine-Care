@@ -72,7 +72,6 @@ node app.js
 ---
 
 ## Project Structure
-
 CreatinineCare/
 ├── frontend/ # React Native frontend application
 │ ├── app/ # Main app entry point and configuration
@@ -84,7 +83,8 @@ CreatinineCare/
 │ ├── ocr-benchmark.js # OCR performance testing and benchmarking
 │ ├── test/ # Unit and integration test files
 │ └── views/ # API route handlers and OCR logic
----
+
+
 
 ## Notes
 
