@@ -74,17 +74,16 @@ node app.js
 ## Project Structure
 
 CreatinineCare/
-├── frontend/
-│   ├── app/
-│   ├── components/
-│   ├── screens/
-│   └── Database/
-├── backend/
-│   ├── app.js
-│   ├── ocr-benchmark.js
-│   ├── test/
-│   └── views/
-
+├── frontend/ # React Native frontend application
+│ ├── app/ # Main app entry point and configuration
+│ ├── components/ # Reusable UI components
+│ ├── screens/ # Individual screen components (e.g., Home, Upload, Trend)
+│ └── Database/ # Local SQLite database integration
+├── backend/ # Node.js + Express backend server
+│ ├── app.js # Main server entry file
+│ ├── ocr-benchmark.js # OCR performance testing and benchmarking
+│ ├── test/ # Unit and integration test files
+│ └── views/ # API route handlers and OCR logic
 ---
 
 ## Notes
